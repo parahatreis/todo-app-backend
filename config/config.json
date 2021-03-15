@@ -3,21 +3,21 @@
     "username": "postgres",
     "password": "webdeveloper2802",
     "database": "todo_app",
-    "host": "127.0.0.1",
+    "host": "localhost",
     "dialect": "postgres"
   },
   "test": {
     "username": "postgres",
-    "password": null,
+    "password": "webdeveloper2802",
     "database": "todo_app",
-    "host": "127.0.0.1",
+    "host": "localhost",
     "dialect": "postgres"
   },
   "production": {
     "username": "postgres",
-    "password": null,
+    "password": "webdeveloper2802",
     "database": "todo_app",
-    "host": "127.0.0.1",
+    "host": "localhost",
     "dialect": "postgres",
     "use_env_variable": "DATABASE_URL"
   }
