@@ -7,6 +7,8 @@ router.get('/',async (req, res) => {
    try {
       const todos = await Todo.findAll({ include: 'user' });
 
+      console.log(todos)
+
       return res.json(todos);
    }
    catch (error) {

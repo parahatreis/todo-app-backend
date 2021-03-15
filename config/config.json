@@ -19,6 +19,6 @@
     "database": "todo_app",
     "host": "127.0.0.1",
     "dialect": "postgres",
-    "use_env_variable": "DATABASE_URL"
+    "use_env_variable": "postgres://vmwagcgzbjhpps:acfdc73303f30296f158a2d59b076ac103ec8b2133fe72d5d0f3cb29e809f630@ec2-54-159-175-113.compute-1.amazonaws.com:5432/d1pf0np1sk6re2"
   }
 }
